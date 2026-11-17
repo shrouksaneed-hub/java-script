@@ -240,3 +240,32 @@ console.log(split(text))
 
 // ====================================================================
 
+// What are the main differences between == and ===? 
+
+** Loose Equality ( == )
+   Compares values only
+   Performs typeconversion automatically before comparing
+
+
+** Strict Equality ( === )
+   Compares both value and data type
+   Does not perform automatic type conversion
+
+// =================================================================
+
+// What’s the difference between type conversion and coercion? Provide examples of each
+
+**  Type Conversion
+    Type Conversion happens when the developer manually converts a value from one data type to another. 
+    
+    let x = "10";
+    let result = Number(x);
+    type of result will be numbers
+
+
+** Type Coercion
+   happens when JavaScript automatically converts a data type without the developer explicitly requesting it.
+
+   let result = "10" + 5;
+
+    Result will be 105  and type of result is string
